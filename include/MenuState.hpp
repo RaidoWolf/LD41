@@ -47,13 +47,13 @@ private:
     };
     aw::Button m_startButton {
         m_startButtonCallback,
-        m_controller,
+        &m_controller,
         "main",
         "Start",
         50.0,
         12.0,
-        sf::Color(255, 255, 255, 0),
-        sf::Color(255, 255, 255, 255),
+        sf::Color(0, 0, 0, 255),
+        sf::Color(208, 200, 7, 255),
         aw::Button::Alignment::Center
     };
 

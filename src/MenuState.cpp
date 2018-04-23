@@ -13,9 +13,11 @@ void MenuState::onActivate () {
 
     aw::Log::verbose("menustate", "Launching Menu.");
 
+    m_startButton.setFont("main");
+
     m_titleTexture.loadFromImage(*aw::AssetStore::getImage("title"));
     m_titleSprite = sf::Sprite(m_titleTexture);
-    m_titleSprite.setOrigin(288.0, 32.0);
+    m_titleSprite.setOrigin(144.0, 16.0);
     m_titleSprite.setScale(2.0, 2.0);
     m_titleSprite.setPosition(400.0, 180.0);
 

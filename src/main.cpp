@@ -54,6 +54,7 @@ int main (int argc, const char* argv[]) {
     } catch (const std::exception& e) {
 
         aw::Log::error("exception", "Uncaught exception: ", e.what());
+        throw;
 
     }
 
