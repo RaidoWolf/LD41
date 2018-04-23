@@ -15,6 +15,22 @@ void MenuState::onActivate () {
 
     m_startButton.setFont("main");
 
+    m_subtitle = sf::Text("Ludum Dare 41 Project by Alexander Barber", *aw::AssetStore::getFont("main"));
+    m_subtitle.setCharacterSize(16);
+    m_subtitle.setStyle(sf::Text::Regular);
+    m_subtitle.setFillColor(sf::Color(0, 0, 0, 255));
+    sf::FloatRect subtitleRect = m_subtitle.getLocalBounds();
+    m_subtitle.setOrigin(
+        subtitleRect.left + subtitleRect.width * 0.5,
+        subtitleRect.top + subtitleRect.height * 0.5
+    );
+    m_subtitle.setPosition(
+        sf::Vector2f(
+            400.0,
+            240.0
+        )
+    );
+
     m_titleTexture.loadFromImage(*aw::AssetStore::getImage("title"));
     m_titleSprite = sf::Sprite(m_titleTexture);
     m_titleSprite.setOrigin(144.0, 16.0);
@@ -36,6 +52,7 @@ void MenuState::onDescend () {}
 void MenuState::render (double deltaTime) {
 
     aw::Window::draw(m_titleSprite);
+    aw::Window::draw(m_subtitle);
     m_startButton.render();
 
 }

@@ -57,6 +57,8 @@ private:
         aw::Button::Alignment::Center
     };
 
+    sf::Text m_subtitle;
+
     sf::Texture m_titleTexture;
     sf::Sprite m_titleSprite;
 
