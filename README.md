@@ -34,7 +34,7 @@ The only way to win is to be the last one left. By any means necessary.
 
 ## Development
 
-### Day 1
+### Day 0 (Friday - April 20, 2018)
 
 I spent the first 15 or so minutes being salty about the theme choice, and
 hoping that somebody would create an unofficial alternative theme like they did
@@ -46,7 +46,7 @@ After that, I started working on porting over some changes from my TimberWolf
 game engine to ArcticWolf so I'd have some useful framework/engine features
 ready once I came up with my theme combo.
 
-### Day 2
+### Day 1 (Saturday - April 21, 2018)
 
 I got up fairly early in the morning to get a good long day in. Probably not an
 early morning in the minds of you "morning people" though. I spent countless
@@ -70,7 +70,7 @@ not being multiplayer, is essentially a "battle-royale."
 So officially I decided it would be "turn-based battle royale" and the game
 would be called "Turn-by-Turn Deathmatch."
 
-### Day 3
+### Day 2 (Sunday - April 22, 2018)
 
 IN PROGRESS
 
